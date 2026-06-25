@@ -6,14 +6,25 @@
 
 ## Table of Contents
 
-- [What Is a Docker Image?](#what-is-a-docker-image)
-- [The Cookbook Analogy](#the-cookbook-analogy)
-- [Where Are Images Stored? (Registries)](#where-are-images-stored-registries)
-- [Pulling and Pushing Images](#pulling-and-pushing-images)
-- [Image Layers](#image-layers)
-- [What Is a Container?](#what-is-a-container)
-- [Container Lifecycle](#container-lifecycle)
-- [Your First Container](#your-first-container)
+- [Docker Images \& Containers](#docker-images--containers)
+  - [Table of Contents](#table-of-contents)
+  - [What Is a Docker Image?](#what-is-a-docker-image)
+  - [The Cookbook Analogy](#the-cookbook-analogy)
+  - [Where Are Images Stored? (Registries)](#where-are-images-stored-registries)
+    - [Public Registries](#public-registries)
+    - [Private Registries](#private-registries)
+  - [Pulling and Pushing Images](#pulling-and-pushing-images)
+    - [Pulling an Image](#pulling-an-image)
+    - [Pushing an Image](#pushing-an-image)
+    - [Viewing Local Images](#viewing-local-images)
+  - [Image Layers](#image-layers)
+  - [What Is a Container?](#what-is-a-container)
+  - [Container Lifecycle](#container-lifecycle)
+  - [Your First Container](#your-first-container)
+    - [Step 1 — Pull an image](#step-1--pull-an-image)
+    - [Step 2 — Run the container](#step-2--run-the-container)
+    - [Step 3 — View your images](#step-3--view-your-images)
+  - [Summary](#summary)
 
 ---
 
