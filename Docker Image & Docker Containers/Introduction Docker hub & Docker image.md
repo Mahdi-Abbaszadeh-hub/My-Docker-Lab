@@ -22,7 +22,7 @@
 A **Docker image** is a single, read-only file that contains everything needed to run an application — the code, runtime, libraries, and configuration. Images are stored either:
 
 - **Locally** on your own machine
-- **In a public registry** like [Docker Hub](https://hub.docker.com)
+- **In a public registry** like [Docker Hub](https://docker.hub.com)
 - **In a private registry** hosted on your own server or cloud infrastructure
 
 Docker images are the **blueprint** for containers. You don't run an image directly — you use it to create and run containers.
